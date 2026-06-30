@@ -18,5 +18,6 @@ class Settings(BaseSettings):
     port: int
     database_url: str
     secret_key: str
+    debug: bool
 
 settings = Settings()
